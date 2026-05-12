@@ -1,1 +1,35 @@
 @import './reset.css';
+
+/* =====================================================
+   Tangram Green — Brand Design Tokens
+   ===================================================== */
+
+:root {
+    --tg-green:         #2d6a4f;
+    --tg-green-light:   #52b788;
+    --tg-green-dark:    #1b4332;
+    --tg-amber:         #e9c46a;
+    --tg-amber-dark:    #c9a227;
+    --tg-earth:         #6b4226;
+    --tg-sky:           #4ea8de;
+
+    --tg-bg:            #f8faf8;
+    --tg-nav-bg:        #ffffff;
+    --tg-card-bg:       #ffffff;
+    --tg-border:        #d4e6d4;
+
+    --tg-status-pending:   #f4a261;
+    --tg-status-verified:  #52b788;
+    --tg-status-rejected:  #e63946;
+    --tg-status-listed:    #4ea8de;
+    --tg-status-funded:    #9b5de5;
+    --tg-status-completed: #2d6a4f;
+
+    --tg-text-primary:  #1a2e1a;
+    --tg-text-muted:    #5c7a5c;
+}
+
+body {
+    background-color: var(--tg-bg);
+    color: var(--tg-text-primary);
+}
